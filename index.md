@@ -1,3 +1,6 @@
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/goodtoeatwithjoy/hwang_shop/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
