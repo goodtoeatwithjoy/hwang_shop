@@ -38,6 +38,11 @@
       background-position: center center;
     }
 
+    .bg-top {
+      background-size: cover;
+      background-position: center top;
+    }
+
     .carousel-caption {
       background-color: rgba(0, 0, 0, 0.5)
     }
@@ -46,8 +51,6 @@
       margin: 0 auto;
       min-height: 500px;
       background-attachment: fixed;
-      background-position: center center;
-      background-size: cover;
     }
 
     .parallax p {
@@ -102,7 +105,11 @@
             <a class="nav-item nav-link" href="#production">產品介紹</a>
             <a class="nav-item nav-link" href="#whygood">美味秘訣</a>
             <a class="nav-item nav-link" href="#buy">訂購方式</a>
+
           </div>
+        </div>
+        <div >
+          <a class="btn btn-info" data-target="#buyModal" data-toggle="modal" href="#">訂購資訊</a>
         </div>
       </div>
     </nav>
@@ -126,16 +133,16 @@
               <p>嚴選上等肉品，遵古法精製</p>
             </div>
           </div>
-          <div class="carousel-item header-carousel-item bg-cover" style="background-image:url(img/IMG_0233.JPG)">
+          <div class="carousel-item header-carousel-item bg-cover" style="background-image:url(img/0002.JPG)">
             <div class="carousel-caption d-none d-block px-3">
               <h3>絕不添加色素及防腐劑</h3>
               <p>絕不添加任何化學物，吃得安心</p>
             </div>
           </div>
-          <div class="carousel-item header-carousel-item bg-cover" style="background-image:url(img/IMG_8348.jpg)">
+          <div class="carousel-item header-carousel-item bg-cover" style="background-image:url(img/0004.jpg)">
             <div class="carousel-caption d-none d-block px-3">
               <h3>即食享用</h3>
-              <p>烤肉、炒菜、電鍋蒸煮入菜都方便</p>
+              <p>煎烤、蒸煮、入菜都方便</p>
             </div>
           </div>
         </div>
@@ -179,17 +186,19 @@
       </div>
     </section>
     <!--  視差  -->
-    <div class="parallax img-4">
-      <p itemprop="description" class="text-white font-weight-bold">採用優質豬後腿肉</p>
-    </div>
-  </span>
-  <div class="parallax img-2">
-    <p class="text-white font-weight-bold">陽光曝曬吸收天地精華</p>
-  </div>
-  <div class="parallax img-3">
-    <p class="text-white font-weight-bold">真空密封保鮮封裝</p>
-  </div>
-  <!--  美味秘訣  -->
+    <section>
+      <div class="parallax img-4 bg-cover">
+        <p itemprop="description" class="text-white font-weight-bold">採用優質豬後腿肉</p>
+      </div>
+      </span>
+      <div class="parallax img-2 bg-cover">
+        <p class="text-white font-weight-bold">陽光曝曬吸收天地精華</p>
+      </div>
+      <div class="parallax img-3 bg-cover">
+        <p class="text-white font-weight-bold">真空密封保鮮封裝</p>
+      </div>
+    </section>
+    <!--  美味秘訣  -->
   <section class="bg-info text-white py-5" id="whygood">
     <div class="container">
       <h2 class="text-center my-4 animated bounce">美味秘訣</h2>
@@ -225,20 +234,56 @@
             <div class="card-body">
               <div class="card-deck justify-content-md-center">
                 <div class="card border-info my-2">
-                  <img itemprop="image" alt="彰化黃家手工台式高粱香腸" class="card-img-top img-fluid product-pic" src="img/002.jpg" />
+                  <img itemprop="image" alt="彰化黃家手工台式高粱香腸" class="card-img-top img-fluid product-pic" src="img/0011.jpg" />
                   <div class="card-body">
-                    <h4 class="card-title">高梁香腸及臘肉禮品組</h4>
+                    <h4 class="card-title">高梁香腸臘肉禮品組</h4>
                     <h6 class="card-subtitle mb-2 text-muted">年節送禮大方實惠</h6>
                     <ul class="list-unstyled">
                       <li class="card-text text-truncate">品項：
-                        <span itemprop="description">手工高梁香腸、臘肉</span>
+                        <span itemprop="description">手工高梁香腸、臘肉各1斤/600g</span>
                       </li>
-                      <li class="card-text text-truncate">價格：歡迎來電洽詢</li>
+                      <li class="card-text text-truncate">價格：新台幣500元</li>
                     </ul>
                   </div>
                   <div class="card-footer text-right">
                     <a class="btn btn-info" data-target="#buyModal" data-toggle="modal" href="#">訂購資訊</a>
                   </div>
+                </div>
+
+                <div class="card border-info my-2">
+                  <img itemprop="image" alt="彰化黃家手工台式高粱香腸" class="card-img-top img-fluid product-pic" src="img/0012.jpg" />
+                  <div class="card-body">
+                    <h4 class="card-title">高梁香腸禮品組</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">年節送禮大方實惠</h6>
+                    <ul class="list-unstyled">
+                      <li class="card-text text-truncate">品項：
+                        <span itemprop="description">手工高梁香腸1斤/600g</span>
+                      </li>
+                      <li class="card-text text-truncate">價格：新台幣200元</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer text-right">
+                    <a class="btn btn-info" data-target="#buyModal" data-toggle="modal" href="#">訂購資訊</a>
+                  </div>
+                </div>
+
+                <div class="card border-info my-2">
+                  <img itemprop="image" alt="彰化黃家手工台式高粱香腸" class="card-img-top img-fluid product-pic" src="img/0013.jpg" />
+                  <div class="card-body">
+                    <h4 class="card-title">高梁臘肉禮品組</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">年節送禮大方實惠</h6>
+                    <ul class="list-unstyled">
+                      <li class="card-text text-truncate">品項：
+                        <span itemprop="description">手工高梁臘肉1斤/600g</span>
+                      </li>
+                      <li class="card-text text-truncate">價格：新台幣300元</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer text-right">
+                    <a class="btn btn-info" data-target="#buyModal" data-toggle="modal" href="#">訂購資訊</a>
+                  </div>
+                
+
                   <!--  Modal  -->
                   <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="buyModal" role="dialog" tabindex="-1">
                     <div class="modal-dialog" role="document">
